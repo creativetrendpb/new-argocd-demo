@@ -25,7 +25,7 @@ spec:
     spec:
       containers:
         - name: myapp
-          image: vamsikrishnakakani/vamsi-repo:pubg
+          image: chakalimurali/sounds:v1
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
