@@ -4,7 +4,7 @@ metadata:
   name: myapp-lb
   namespace: myapp
 spec:
-  type: ClusterIP
+  type: NodePort
   selector:
     app: myapp
     tier: backend
@@ -12,3 +12,4 @@ spec:
     - name: http
       port: 80
       targetPort: 80
+      nodePort: 31256
