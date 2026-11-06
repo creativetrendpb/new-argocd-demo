@@ -25,7 +25,7 @@ spec:
     spec:
       containers:
         - name: myapp
-          image: creativetrendpb/swiggy:v1
+          image: creativetrendpb/museum:latest
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
