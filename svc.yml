@@ -4,7 +4,7 @@ metadata:
   name: myapp-lb
   namespace: myapp
 spec:
-  type: ClusterIP
+  type: LoadBalancer
   selector:
     app: myapp
     tier: backend
